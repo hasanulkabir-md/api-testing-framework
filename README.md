@@ -23,16 +23,6 @@ This project demonstrates **API testing with Python + Pytest** for the [OpenWeat
 
    pytest
 
-
- 📊 Reports
-
-* After running tests, an **HTML report** is generated here:
-
-  
-  reports/report.html
-  
-* Open it in your browser to view detailed results ✅
-
 ---
 
 📂 Project Structure
@@ -56,3 +46,4 @@ API-TESTING-FRAMEWORK/
 * **Python 3.12**
 * **Pytest** for testing
 * **Requests** for API calls
+
