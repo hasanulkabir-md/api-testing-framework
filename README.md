@@ -72,9 +72,7 @@ api-testing-framework/
 ## 👨‍💻 Author
 Md. Hasanul Kabir
 🔗 [LinkedIn](https://linkedin.com/in/hasanulkabir_md) | [Portfolio](https://your-portfolio.com)
-
-`````
-
 ---
+
 
 
