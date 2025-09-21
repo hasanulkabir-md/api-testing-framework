@@ -70,13 +70,11 @@ api-testing-framework/
 ---
 
 ## 👨‍💻 Author
-
-**Md. Hasanul Kabir**
-
-* 🌐 Portfolio: *add your portfolio link here*
-* 💼 LinkedIn: *add your LinkedIn link here*
+Md. Hasanul Kabir
+🔗 [LinkedIn](https://linkedin.com/in/hasanulkabir_md) | [Portfolio](https://your-portfolio.com)
 
 `````
 
 ---
+
 
