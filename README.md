@@ -1,49 +1,83 @@
-🌦️ API Testing Framework - OpenWeather
+---
 
-This project demonstrates **API testing with Python + Pytest** for the [OpenWeather API](https://openweathermap.org/api).
+````markdown
+# 🌦️ API Testing Framework - OpenWeather
 
+This project demonstrates **API testing with Python + Pytest** for the [OpenWeather API](https://openweathermap.org/api).  
+It validates responses, error handling, and authentication using automated test cases.  
 
-🚀 How to Run
+---
 
-1. Clone the repo:
-   
-   git clone https://github.com/hasanulkabir_md/api-testing-framework.git
-   cd api-testing-framework
+## 🚀 How to Run
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/hasanulkabir-md/api-testing-framework.git
+cd api-testing-framework
 ````
 
-2. Create a virtual environment & install dependencies:
+### 2. Create Virtual Environment & Install Dependencies
 
-   
-   python3 -m venv venv
-   source venv/bin/activate
-   pip install -r requirements.txt
-   
-
-3. Run tests:
-
-   pytest
-
----
-
-📂 Project Structure
-
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 ```
-API-TESTING-FRAMEWORK/
-│
-├── tests/                  # Test cases
-│   └── test_weather_api.py
-│
-├── requirements.txt        # Dependencies
-├── pytest.ini              # Pytest configuration
-├── README.md               # Project documentation
-└── .gitignore              # Ignore venv, cache, reports
+
+### 3. Run Tests
+
+```bash
+pytest -v
 ```
 
 ---
 
-🛠 Tech Stack
+## 📂 Project Structure
+
+```
+api-testing-framework/
+├── tests/
+│   └── test_weather_api.py   # Test cases for OpenWeather API
+│
+├── requirements.txt          # Python dependencies
+├── pytest.ini                # Pytest configuration
+├── README.md                 # Project documentation
+└── .gitignore                # Ignore venv, cache, reports
+```
+
+---
+
+## 🧪 Example Test Cases
+
+* ✅ `test_valid_city` → checks valid city response
+* ✅ `test_invalid_city` → checks 404 error for unknown city
+* ✅ `test_missing_api_key` → checks authentication error
+
+---
+
+## 🛠 Tech Stack
 
 * **Python 3.12**
-* **Pytest** for testing
-* **Requests** for API calls
+* **Pytest** → test framework
+* **Requests** → API calls
 
+---
+
+## 🎯 Why This Project?
+
+* Demonstrates **API testing fundamentals** (GET requests, parameters, auth).
+* Covers **positive & negative test scenarios**.
+* Provides **reproducible framework** with pytest integration.
+
+---
+
+## 👨‍💻 Author
+
+**Md. Hasanul Kabir**
+
+* 🌐 Portfolio: *add your portfolio link here*
+* 💼 LinkedIn: *add your LinkedIn link here*
+
+`````
+
+---
