@@ -1,17 +1,21 @@
-````markdown
+---
+
 # 🌦️ API Testing Framework - OpenWeather
 
-This project demonstrates **API testing with Python + Pytest** for the [OpenWeather API](https://openweathermap.org/api).  
-It validates responses, error handling, and authentication using automated test cases.  
+This project demonstrates **API testing with Python + Pytest** for the [OpenWeather API](https://openweathermap.org/api).
+It validates **API responses, error handling, and authentication** using automated test cases.
 
 ---
 
 ## 🚀 How to Run
 
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/hasanulkabir-md/api-testing-framework.git
 cd api-testing-framework
+```
+
 ````
 
 ### 2. Create Virtual Environment & Install Dependencies
@@ -73,6 +77,7 @@ api-testing-framework/
 Md. Hasanul Kabir
 🔗 [LinkedIn](https://linkedin.com/in/hasanulkabir_md) | [Portfolio](https://your-portfolio.com)
 ---
+
 
 
 
